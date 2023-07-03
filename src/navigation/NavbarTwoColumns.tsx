@@ -17,7 +17,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
       </Link>
       <div
         className="ml-4"
-        style={{ color: 'black', fontWeight: 700, fontSize: 30 }}
+        style={{ color: 'black', fontWeight: 800, fontSize: 30 }}
       >
         Gwood Asia
       </div>

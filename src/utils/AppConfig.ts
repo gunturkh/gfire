@@ -1,6 +1,6 @@
 export const AppConfig = {
-  site_name: 'Gwood Asia',
-  title: 'Gwood Asia Home Page',
-  description: 'Home Page Gwood Asia',
+  site_name: 'Gfire Asia',
+  title: 'Gfire Asia Home Page',
+  description: 'Home Page Gfire Asia',
   locale: 'en',
 };

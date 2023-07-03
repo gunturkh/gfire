@@ -20,11 +20,11 @@ function Navbar() {
           className="cursor-pointer w-[30px] h-[33px] sm:w-[60px] sm:h-[63px]"
         />
         <a
-          className="btn btn-ghost normal-case text-base sm:text-2xl  "
+          className="btn btn-ghost normal-case text-base sm:text-2xl font-extrabold "
           href={'/'}
-          style={{ color: '#151206' }}
+          style={{ color: '#002E84' }}
         >
-          Gwood Asia
+          GFIRE ASIA
         </a>
       </div>
       <div className="navbar-end ">
