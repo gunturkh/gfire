@@ -3,18 +3,20 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import GWoodLogo from '../../public/assets/images/logo.png';
+import GFireLogo from '../../public/assets/images/logo.png';
 
 function Navbar() {
   const router = useRouter();
   return (
     <div
       className="navbar px-10 fixed top-0 z-50"
-      style={{ backgroundColor: '#ffffff' }}
+      style={{
+        backgroundColor: router.pathname === '/' ? 'transparent' : '#ffffff',
+      }}
     >
       <div className="navbar-start">
         <img
-          src={GWoodLogo.src}
+          src={GFireLogo.src}
           alt="logo"
           onClick={() => router.push('/')}
           className="cursor-pointer w-[30px] h-[33px] sm:w-[60px] sm:h-[63px]"
