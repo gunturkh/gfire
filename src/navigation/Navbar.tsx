@@ -81,27 +81,22 @@ function Navbar() {
             className="dropdown-content card-body text-center  w-40 p-2 mr-[-25px] rounded-b-xl"
             style={{ backgroundColor: '#ffffff' }}
           >
-            <div className="hover:bg-[#820100] mx-[10px] py-2 hover:text-white hover:font-semibold font-medium rounded-xl">
+            <div className="hover:bg-[#002E84] mx-[10px] py-2 hover:text-white hover:font-semibold font-medium rounded-xl">
               <Link href="/" className="my-4">
                 Home
               </Link>
             </div>
-            <div className="hover:bg-[#820100] mx-[10px] py-2 hover:text-white hover:font-semibold font-medium rounded-xl">
+            <div className="hover:bg-[#002E84] mx-[10px] py-2 hover:text-white hover:font-semibold font-medium rounded-xl">
               <Link href="/about" className="my-4">
                 About Us
               </Link>
             </div>
-            <div className="hover:bg-[#820100] mx-[10px] py-2 hover:text-white hover:font-semibold font-medium rounded-xl">
-              <Link href="/capabilities" className="my-4">
-                Capabilities
-              </Link>
-            </div>
-            <div className="hover:bg-[#820100] mx-[10px] py-2 hover:text-white hover:font-semibold font-medium rounded-xl">
+            <div className="hover:bg-[#002E84] mx-[10px] py-2 hover:text-white hover:font-semibold font-medium rounded-xl">
               <Link href="/companies" className="my-4">
                 Companies
               </Link>
             </div>
-            <div className="hover:bg-[#820100] mx-[10px] py-2 hover:text-white hover:font-semibold font-medium rounded-xl">
+            <div className="hover:bg-[#002E84] mx-[10px] py-2 hover:text-white hover:font-semibold font-medium rounded-xl">
               <Link href="/contacts" className="my-4">
                 Contacts
               </Link>
