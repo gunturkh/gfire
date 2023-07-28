@@ -64,9 +64,11 @@ function About() {
           <h1 className="text-md md:text-3xl font-bold mt-20 md:mt-36">
             {`Thank you for contacting our`}
           </h1>
-          <h1 className="text-md md:text-3xl font-bold">
-            {`${capitalizeFirstLetter(countryName as string)} division`}
-          </h1>
+          {countryName && (
+            <h1 className="text-md md:text-3xl font-bold">
+              {`${capitalizeFirstLetter(countryName as string)} division`}
+            </h1>
+          )}
           <h1 className="text-sm md:text-2xl font-semibold mt-20">
             Please send enquiry to
           </h1>
