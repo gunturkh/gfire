@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 import australia from '../../public/assets/images/australia.png';
@@ -39,32 +40,38 @@ function About() {
   return (
     <div>
       <Navbar />
-      <div className="flex flex-row h-[100vh] ">
+      <div className="flex flex-col md:flex-row">
+        <Link href="/">
+          <img
+            src={'/assets/images/prevdouble.png'}
+            alt="back to home"
+            className="fixed top-[50%]"
+          />
+        </Link>
         <img
           src={countryBg(countryName as string)}
           alt={countryName as string}
-          className={`h-full`}
+          className={`w-full md:w-[50%]`}
         />
         <div
           style={{
             background: `url(${cover.src})`,
-            backgroundSize: 'contain',
+            backgroundSize: 'auto',
             backgroundRepeat: 'no-repeat',
-            // width: '100vw',
-            height: '100%',
           }}
+          className="text-black font-lato w-full h-[50vh] md:h-[100vh] pl-10 md:pl-20 flex flex-col justify-start"
         >
-          <h1 className="lg:px-80 px:20 text-center text-black text-[20px] md:text-[45px] font-normal flex flex-1 justify-center items-center font-Lato">
-            {`Thank you for contacting our ${capitalizeFirstLetter(
-              countryName as string
-            )} division`}
+          <h1 className="text-md md:text-3xl font-bold mt-20 md:mt-36">
+            {`Thank you for contacting our`}
           </h1>
-          <h1 className="lg:px-80 px:20 text-center text-black text-[20px] md:text-[45px] font-normal flex flex-1 justify-center items-center font-Lato">
+          <h1 className="text-md md:text-3xl font-bold">
+            {`${capitalizeFirstLetter(countryName as string)} division`}
+          </h1>
+          <h1 className="text-sm md:text-2xl font-semibold mt-20">
             Please send enquiry to
           </h1>
-          <h1 className="lg:px-80 px:20 text-center text-black text-[20px] md:text-[45px] font-normal flex flex-1 justify-center items-center font-Lato">
-            {`e: contact_${countryName}@gfireasia.com`}
-          </h1>
+          <h1 className="text-sm md:text-2xl font-semibold">{`e: contact_${countryName}@gfireasia.com`}</h1>
+          {/* lg:px-80 px:20 text-center text-black text-[20px] md:text-[45px] font-normal flex flex-1 justify-center items-center font-Lato */}
         </div>
       </div>
     </div>
