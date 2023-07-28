@@ -15,7 +15,12 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
-      fontFamily: { Manrope: ['Manrope'], Inter: ['Inter'], Lato: ['Lato'] },
+      fontFamily: {
+        Manrope: ['Manrope'],
+        Inter: ['Inter'],
+        Lato: ['Lato'],
+        Montserrat: ['Montserrat'],
+      },
       colors: {
         primary: {
           100: '#E6F6FE',

@@ -23,5 +23,8 @@
     "activityBar.background": "#0A3520",
     "titleBar.activeBackground": "#0E4A2D",
     "titleBar.activeForeground": "#F2FCF7"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   }
 }
