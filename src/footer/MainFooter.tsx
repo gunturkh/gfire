@@ -7,8 +7,8 @@ import GFireLogo from '../../public/assets/images/logo.png';
 
 export const Footer = () => {
   return (
-    <div>
-      <footer className=" flex flex-row flex-wrap p-10 bg-[#0D005B] text-base-content font-['Inter'] gap-40 justify-around relative top-[64px]">
+    <div className="w-full">
+      <footer className=" flex flex-row flex-wrap p-10 bg-[#0D005B] text-base-content font-['Inter'] gap-40 justify-around ">
         <div className="flex flex-col justify-center">
           <div className="flex justify-center">
             <Image

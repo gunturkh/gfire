@@ -9,7 +9,7 @@ function Navbar() {
   const router = useRouter();
   return (
     <div
-      className="navbar px-10 fixed top-0 z-50"
+      className="navbar px-10 z-50"
       style={{
         backgroundColor: router.pathname === '/' ? 'transparent' : '#ffffff',
       }}
@@ -29,8 +29,34 @@ function Navbar() {
           GFIRE ASIA
         </a>
       </div>
-      <div className="navbar-end ">
-        <div style={{ color: '#151206', fontWeight: 600 }}>Menu</div>
+      <div className="navbar-end invisible md:visible text-black">
+        <div className="mx-4">
+          <Link href={'/'} className="font-['Yantramanav'] font-light">
+            Home
+          </Link>
+        </div>
+        <div className="mx-4">
+          <Link href={'/about'} className="font-['Yantramanav'] font-light">
+            About Us
+          </Link>
+        </div>
+
+        <div className="mx-4">
+          <Link href={'/companies'} className="font-['Yantramanav'] font-light">
+            Companies
+          </Link>
+        </div>
+        <div className="bg-[#507BCD]/[.15] border-black border-[1px] px-4 py-2 mx-4">
+          <Link
+            href={'/contacts'}
+            className="font-['Yantramanav'] font-semibold"
+          >
+            Contacts
+          </Link>
+        </div>
+      </div>
+      <div className="navbar-end visible md:hidden ">
+        {/* <div style={{ color: '#151206', fontWeight: 600 }}>Menu</div> */}
         <div
           className="dropdown dropdown-bottom dropdown-end"
           style={{ color: '#151206' }}

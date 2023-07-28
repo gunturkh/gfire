@@ -30,6 +30,10 @@ class MyDocument extends Document {
           href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,900;1,700&display=swap"
           rel="stylesheet"
         ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;500;700;900&display=swap"
+          rel="stylesheet"
+        ></link>
         <body>
           <Main />
           <NextScript />

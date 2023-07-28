@@ -20,6 +20,7 @@ module.exports = {
         Inter: ['Inter'],
         Lato: ['Lato'],
         Montserrat: ['Montserrat'],
+        Yantramanav: ['Yantramanav'],
       },
       colors: {
         primary: {
