@@ -11,6 +11,7 @@ import Next from '../../public/assets/images/next.png';
 import PERTH1 from '../../public/assets/images/PERTH1.png';
 import Prev from '../../public/assets/images/prev.png';
 import SGP1 from '../../public/assets/images/SGP1.png';
+import { Footer } from '../footer/MainFooter';
 import Navbar from '../navigation/Navbar';
 
 const properties = {
@@ -27,7 +28,11 @@ function Companies() {
       <Navbar />
       <Slide {...properties}>
         <div className="each-slide-effect">
-          <div style={{ backgroundImage: `url(${GNM.src})` }}>
+          <div
+            style={{
+              backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.7) 6%, rgba(255, 255, 255, 0) 20%), url(${GNM.src})`,
+            }}
+          >
             <div className="font-['Montserrat'] flex flex-col justify-start text-white text-[1rem] md:text-[2rem] py-8 px-8 md:px-16">
               <p>PT Gfire Nusantara Mandiri</p>
               <p>{'(Jakarta)'}</p>
@@ -35,7 +40,11 @@ function Companies() {
           </div>
         </div>
         <div className="each-slide-effect">
-          <div style={{ backgroundImage: `url(${GSG.src})` }}>
+          <div
+            style={{
+              backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.7) 6%, rgba(255, 255, 255, 0) 20%), url(${GSG.src})`,
+            }}
+          >
             <div className="font-['Montserrat'] flex flex-col justify-start text-white text-[1rem] md:text-[2rem] py-8 px-8 md:px-16">
               <p>PT Gfire Service Gautama</p>
               <p>{'(Batam)'}</p>
@@ -43,7 +52,11 @@ function Companies() {
           </div>
         </div>
         <div className="each-slide-effect">
-          <div style={{ backgroundImage: `url(${HK1.src})` }}>
+          <div
+            style={{
+              backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.7) 6%, rgba(255, 255, 255, 0) 20%), url(${HK1.src})`,
+            }}
+          >
             <div className="font-['Montserrat'] flex flex-col justify-start text-white text-[1rem] md:text-[2rem] py-8 px-8 md:px-16">
               <p>PT Gfire Asia Limited</p>
               <p>{'(Hong Kong)'}</p>
@@ -51,7 +64,11 @@ function Companies() {
           </div>
         </div>
         <div className="each-slide-effect">
-          <div style={{ backgroundImage: `url(${SGP1.src})` }}>
+          <div
+            style={{
+              backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.7) 6%, rgba(255, 255, 255, 0) 20%), url(${SGP1.src})`,
+            }}
+          >
             <div className="font-['Montserrat'] flex flex-col justify-start text-white text-[1rem] md:text-[2rem] py-8 px-8 md:px-16">
               <p>PT Gfire Asia Projects Pte Ltd</p>
               <p>{'(Singapore)'}</p>
@@ -59,7 +76,11 @@ function Companies() {
           </div>
         </div>
         <div className="each-slide-effect">
-          <div style={{ backgroundImage: `url(${PERTH1.src})` }}>
+          <div
+            style={{
+              backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.7) 6%, rgba(255, 255, 255, 0) 20%), url(${PERTH1.src})`,
+            }}
+          >
             <div className="font-['Montserrat'] flex flex-col justify-start text-white text-[1rem] md:text-[2rem] py-8 px-8 md:px-16">
               <p>Goodwood Communicators Pty Ltd</p>
               <p>{'(Australia)'}</p>
@@ -67,11 +88,19 @@ function Companies() {
           </div>
         </div>
         <div className="each-slide-effect">
-          <div style={{ backgroundImage: `url(${GIA.src})` }}>
-            <span>Slide 6</span>
+          <div
+            style={{
+              backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.7) 10%, rgba(255, 255, 255, 0)), url(${GIA.src})`,
+            }}
+          >
+            <div className="font-['Montserrat'] flex flex-col justify-start text-white text-[1rem] md:text-[2rem] py-8 px-8 md:px-16">
+              <p>Gfire Independent Archipelago</p>
+              <p>{'(Singapore)'}</p>
+            </div>
           </div>
         </div>
       </Slide>
+      <Footer />
     </>
   );
 }

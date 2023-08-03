@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { ImArrowRight2 } from 'react-icons/im';
 
-import GFireLogo from '../../public/assets/images/logo.png';
+import GFireLogo from '../../public/assets/images/logohd.png';
 
 export const Footer = () => {
   return (
@@ -19,7 +19,7 @@ export const Footer = () => {
               style={{ width: '100px', height: 'auto' }}
             />
           </div>
-          <p className="text-white font-semibold text-lg mt-4"> GFire Asia</p>
+          <p className="text-white font-semibold text-lg mt-4"> Gfire Asia</p>
         </div>
         <div className="flex flex-col max-w-[600px] gap-8">
           <span className="font-semibold font-Manrope text-white text-lg">

@@ -129,7 +129,7 @@ function About() {
             </div>
 
             <div className="mt-32">
-              <h2 className="text-black font-Montserrat font-light text-xl md:text-3xl text-center">
+              <h2 className="text-black font-Montserrat font-semibold text-xl md:text-3xl text-center">
                 SERVICES
               </h2>
               <div className="px-10 md:px-48 mt-16">
@@ -180,7 +180,7 @@ function About() {
             </div>
 
             <div className="mt-32">
-              <h2 className="text-black font-Montserrat font-light text-xl md:text-3xl text-center">
+              <h2 className="text-black font-Montserrat font-semibold text-xl md:text-3xl text-center">
                 PROJECTS
               </h2>
               <div className="px-10 md:px-48 mt-16">
@@ -230,7 +230,7 @@ function About() {
             </div>
 
             <div className="mt-32">
-              <h2 className="text-black font-Montserrat font-light text-xl md:text-3xl text-center">
+              <h2 className="text-black font-Montserrat font-semibold text-xl md:text-3xl text-center">
                 COMMERCIAL
               </h2>
               <div className="px-10 md:px-48 mt-16">
@@ -280,7 +280,7 @@ function About() {
             </div>
 
             <div className="mt-32">
-              <h2 className="text-black font-Montserrat font-light text-xl md:text-3xl text-center">
+              <h2 className="text-black font-Montserrat font-semibold text-xl md:text-3xl text-center">
                 LEGAL
               </h2>
               <div className="px-10 md:px-48 mt-16">

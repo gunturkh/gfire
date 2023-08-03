@@ -9,7 +9,7 @@ function Navbar() {
   const router = useRouter();
   return (
     <div
-      className="navbar px-10 z-50"
+      className="navbar px-10 fixed top-0 z-50"
       style={{
         backgroundColor: router.pathname === '/' ? 'transparent' : '#ffffff',
       }}
