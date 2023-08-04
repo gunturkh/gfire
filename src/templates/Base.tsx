@@ -69,6 +69,8 @@ const Base = () => {
       style={{
         backgroundImage: `url(${bg.src})`,
         backgroundSize: 'cover',
+        backgroundPosition: '0% 75%',
+        backgroundRepeat: 'no-repeat',
         width: '100vw',
         height: '100vh',
         overflow: 'hidden',
@@ -78,7 +80,7 @@ const Base = () => {
       <Meta title={AppConfig.title} description={AppConfig.description} />
       <div className="fixed max-h-[100vh] w-[40px] h-[200px] md:w-[60px] md:h-[550px] bg-[#FFF] top-[120px] flex flex-col justify-evenly py-[100px] rounded-tr-3xl rounded-br-3xl shadow drop-shadow-md z-50">
         <a
-          href="https://www.facebook.com/gwood.asia.9/"
+          // href="https://www.facebook.com/gwood.asia.9/"
           target="_blank"
           rel="noreferrer"
         >
@@ -89,7 +91,7 @@ const Base = () => {
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/gwood-asia-92493787/"
+          // href="https://www.linkedin.com/in/gwood-asia-92493787/"
           target="_blank"
           rel="noreferrer"
         >
@@ -100,7 +102,7 @@ const Base = () => {
           />
         </a>
         <a
-          href="mailto:commercial_admin@gwoodasia.com"
+          // href="mailto:commercial_admin@gwoodasia.com"
           target="_blank"
           rel="noreferrer"
         >
@@ -110,7 +112,11 @@ const Base = () => {
             className="w-[40px] h-[40px] md:w-[80px] md:h-[80px]"
           />
         </a>
-        <a href="https://wa.me/+6581390383" target="_blank" rel="noreferrer">
+        <a
+          // href="https://wa.me/+6581390383"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src={'/assets/images/wa.svg'}
             alt="Whatsapp"

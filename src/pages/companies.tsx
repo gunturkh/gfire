@@ -58,7 +58,7 @@ function Companies() {
             }}
           >
             <div className="font-['Montserrat'] flex flex-col justify-start text-white text-[1rem] md:text-[2rem] py-8 px-8 md:px-16">
-              <p>PT Gfire Asia Limited</p>
+              <p>Gfire Asia Limited</p>
               <p>{'(Hong Kong)'}</p>
             </div>
           </div>
@@ -70,7 +70,7 @@ function Companies() {
             }}
           >
             <div className="font-['Montserrat'] flex flex-col justify-start text-white text-[1rem] md:text-[2rem] py-8 px-8 md:px-16">
-              <p>PT Gfire Asia Projects Pte Ltd</p>
+              <p>Gfire Asia Projects Pte Ltd</p>
               <p>{'(Singapore)'}</p>
             </div>
           </div>
