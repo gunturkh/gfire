@@ -59,7 +59,7 @@ function About() {
             backgroundSize: 'auto',
             backgroundRepeat: 'no-repeat',
           }}
-          className="text-black font-lato w-full h-[50vh] md:h-[100vh] pl-10 md:pl-20 flex flex-col justify-start"
+          className="text-black font-lato w-full h-[50vh] md:h-[100vh] px-10 md:px-20 flex flex-col justify-center items-end"
         >
           <h1 className="text-md md:text-3xl font-bold mt-20 md:mt-36">
             {`Thank you for contacting our`}

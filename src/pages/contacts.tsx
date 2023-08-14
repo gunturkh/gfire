@@ -64,7 +64,7 @@ function Contacts() {
                 </div>
                 <div className="flex flex-row items-center">
                   <a
-                    href="mailto:commercial_admin@gwoodasia.com"
+                    href="mailto:group_admin@gfireasia.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -75,7 +75,7 @@ function Contacts() {
                     />
                   </a>
                   <div className="ml-8">
-                    Send email to: operations_admin@gfireasia.com
+                    Send email to: group_admin@gfireasia.com
                   </div>
                 </div>
               </div>
