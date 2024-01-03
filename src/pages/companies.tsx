@@ -34,6 +34,23 @@ function Companies() {
             }}
           >
             <div className="font-['Montserrat'] flex flex-col justify-start text-white text-[1rem] md:text-[2rem] py-8 px-8 md:px-16">
+              <p>Gfire Trade Marks</p>
+              <a
+                className="hover:text-blue-500"
+                href="https://drive.google.com/file/d/1JNzYtf1nQHDkqpYtZB_mBu2V5cC8Qp2P/view?usp=drive_link"
+              >
+                {'Certificate'}
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="each-slide-effect">
+          <div
+            style={{
+              backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.7) 6%, rgba(255, 255, 255, 0) 20%), url(${GNM.src})`,
+            }}
+          >
+            <div className="font-['Montserrat'] flex flex-col justify-start text-white text-[1rem] md:text-[2rem] py-8 px-8 md:px-16">
               <p>PT Gfire Nusantara Mandiri</p>
               <p>{'(Jakarta)'}</p>
             </div>
