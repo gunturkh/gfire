@@ -111,8 +111,8 @@ function Companies() {
             }}
           >
             <div className="font-['Montserrat'] flex flex-col justify-start text-white text-[1rem] md:text-[2rem] py-8 px-8 md:px-16">
-              <p>Gfire Independent Archipelago</p>
-              <p>{'(Singapore)'}</p>
+              <p>PT Gfire Nusantara Mandiri</p>
+              <p>{'(Batam)'}</p>
             </div>
           </div>
         </div>
